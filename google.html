@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="icon"  href="googleimg.png">
-    <link rel="stylesheet" href="goglestyle.css">
+    <link rel="icon"  href="Images/googleimg.png">
+    <link rel="stylesheet" href="CssFile/goglestyle.css">
+    <link rel="stylesheet" href="CssFile/result.css">
+    <script type="text/javascript" src="Javascript/google.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -13,23 +16,27 @@
             <ul class="header_nav">
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
-                <a href="#"><img  class="header_img"src="googledots.jpg" alt="Google Apps" width="24" height="24"> </a> 
-                <a href="#"><img class="header_img" src="oliviyaprofile.png" alt="Google Account" width="24" height="24"> </a>
+                <a href="#"><img  class="header_img" src="Images/googledots.jpg" alt="Google Apps" width="24" height="24"> </a> 
+                <a href="#"><img class="header_img" src="Images/oliviyaprofile.png" alt="Google Account" width="24" height="24"> </a>
             </ul>
         </nav>
     </header>
     <section>
         <h1><span style="color: #4285E4;">G</span><span style="color: #DB4437;">o</span><span style="color: #F4B400;">o</span><span style="color: #4285E4;">g</span><span style="color: rgb(15, 147, 15);">l</span><span style="color: #DB4437;">e</span></h1>
         <div class="sec_div_ip">
-            <img src="maggoogle.png" alt="Search" width="24" height="24" style="border-radius: 20px; margin-left: 5px;">
-            <input type="text">
-            <img src="micgoogle.png" alt="Record" width="15" height="20" style="padding-right: 12px;">
-        
-            <img src="camgoogle.png" alt="lens" width="24" height="24" style="margin-right: 5px;">
+          <form class="sec_div_fom" onsubmit = "showResult(); return false;">
+            <button type="submit" class="sec_div_fom_btn" id= "subButtn" ><img src="Images/maggoogle.png" height="18px" width="18px" ></button>
+            <input type="text" id="searchIp" required>
+          </form>
+          <img class="sec_div_img" src="Images/micgoogle.png" alt="Record" width="15" height="20" style="padding-right: 10px;" >
+            <img class="sec_div_img" src="Images/camgoogle.png" alt="lens" width="24" height="24" style="margin-right: 5px;">
         </div>
         <div class="sec_div_btn">
             <button>Google Search</button>
             <button>I'm feeling Lucky</button>
+        </div>
+        <div id="resultData">
+            
         </div>
     </section>
     <footer>

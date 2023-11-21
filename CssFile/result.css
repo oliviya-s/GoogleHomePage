@@ -1,0 +1,20 @@
+.result_img {
+    float: left;
+    padding-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+.result_text {
+    float: left;
+    font-size: 15px;
+}
+.result_text a {
+    text-decoration: none;
+    color: #000;
+}
+.result_text a:hover {
+    color: #0076D6;
+}
+.result_description {
+    clear: both;
+  }

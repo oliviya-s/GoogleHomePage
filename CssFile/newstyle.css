@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.object-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.link, .name, .description {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.link {
+    background-color: #e6f1ff;
+}
+
+.name {
+    background-color: #c6e2ff;
+}
+
+.description {
+    background-color: #a3d0ff;
+}
