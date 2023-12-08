@@ -25,10 +25,10 @@ nav{
         border-radius: 20px;
         cursor: pointer;
 }
-section{
+ section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     margin: 3vh;
 }
 h1{
@@ -38,8 +38,8 @@ h1{
     margin-top: 20px;
     margin-bottom: 0;
     padding-bottom: 20px;
-}
-.sec_div_ip{
+} 
+ .sec_div_ip{
     display: flex;
     justify-self: space-between;
     width: 600px;
@@ -51,7 +51,7 @@ h1{
 .sec_div_ip:hover{
     box-shadow: 0 0 10px 0 gainsboro;
 }
- .sec_div_img{
+.sec_div_img{
        
        display: flex;
        justify-self: flex-end;
@@ -108,7 +108,7 @@ button{
     padding: 0 20px;
     margin: 0 4px;
 
-}
+} 
 #resultData{
     display: none;
     width: 800px;
